@@ -1,5 +1,5 @@
 header {background-color: tan;
-height: 100px;
+height: 50px;
 position: relative;}
 main {background-color: #090;}
 footer {background-color: tan;}
@@ -13,8 +13,9 @@ width: 25%;}
 nav a:hover {background-color: pink;}
 body {color: black;
 }
-img {width: 50px;
-height: 50px;}
+article {padding: 20px;}
+img {width: 5px;
+height: 5px;}
 p {padding: 8px;}
 header h2 {color: white;
 font-size: 50px;
