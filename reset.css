@@ -1,0 +1,17 @@
+* {margin: 0;
+padding: 0;}
+body, header, nav, main, footer, ul, li, img {display: block;
+box-sizing: border-box;}
+
+.clearfix {clear: both;}
+.clearfix::after {clear: both; content: "";
+display: table;}
+html {height: 100%;
+background-color: #333;
+font-family: sans-serif;}
+body {width: 95%;
+min-width: 640px;
+max-width: 960px;
+background-color: #eee;
+margin: 10px; auto;
+border: 0px solid green;}

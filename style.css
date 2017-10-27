@@ -1,0 +1,22 @@
+header {background-color: tan;
+height: 200px;
+position: relative;}
+main {background-color: #090;}
+footer {background-color: tan;}
+nav {background-color: green;
+height: 20px;}
+nav ul {margin: auto;
+width: 60%;}
+nav li {float: left;
+text-align: center;
+width: 25%;}
+nav a:hover {background-color: pink;}
+body {color: black;
+}
+p {padding: 8px;}
+header h2 {color: white;
+font-size: 50px;
+position: absolute;
+top: 25%;
+left: 25%;
+transform: translate(-25%,-25%);}
