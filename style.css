@@ -26,8 +26,8 @@ text-align: center;}
 article p {padding: 8px;
 display: block;
 }
-img {display: block;
+p img {display: block;
   float: left;
-  width: 5%;
-} 
+  width: 10%;
+}
 footer {background-color: tan;}
