@@ -17,7 +17,8 @@ width: 60%;}
 nav li {float: left;
 text-align: center;
 width: 25%;}
-nav a:hover {background-color: pink;}
+nav a:hover {background-color: pink;
+text-decoration: none;}
 body {color: black;
 }
 article h2 {padding-left: 30px;
