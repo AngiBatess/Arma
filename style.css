@@ -1,8 +1,8 @@
 header {background-color: tan;
 height: 50px;
 position: relative;}
-/*header > img {width: 250px;
-height: auto;}*/
+header img { max-width: 100%;
+height: auto;}
 header h1 {color: white;
 font-size: 50px;
 position: absolute;
@@ -25,16 +25,23 @@ text-decoration: none;
 li a:hover {background-color: pink;
 }
 body {background-color: linen;}
-/*article h2 {padding-left: 30px;
+article h2 {
 color: pink;
-text-align: center;}
-article p {padding: 8px;
+text-align: [left;}
+article p {margin: 25px 50px;
 display: block;
 }
-/*p img {display: block;
+img {display: block;
   float: left;
-  width: 5%;
-} */
+  border-radius: 50%;
+}
+img {display: block;
+float: none;
+border-radius: 50%;
+}
+img {display: block;
+float: right;
+border-radius: 50%;}
 .clearfix::after {content:
 "";
 clear: both;
