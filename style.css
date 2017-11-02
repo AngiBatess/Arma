@@ -1,50 +1,90 @@
 @charset "UTF-8";
-header {background-color: tan;
-height: 50px;
-position: relative;}
-header img { max-width: 100%;
-height: auto;}
-header h1 {color: white;
-font-size: 50px;
-position: absolute;
-top: 25%;
-left: 25%;
-transform: translate(-50%,-50%);
+header {
+  background-color: tan;
+  height: 150px;
+  position: relative;
 }
- ul {margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: green;
-list-style: none;}
- li {float: left;
+
+header img {
+  /*max-width: 100%;
+  height: auto;*/
+  height: 100%;
 }
-li a {display: block;
-color: white;
-text-align: center;
-text-decoration: none;
+
+header h1 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
 }
-li a:hover {background-color: pink;
+/*{outline:1px solid red;}*/
+ul {
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: green;
+  list-style: none;
 }
-body {background-color: linen;}
+
+li {
+  box-sizing: border-box;
+  float: left;
+  /*padding: 5px;*/
+  width: 25%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(91, 68, 172);
+}
+
+body {
+  background-color: linen;
+}
+
 article h2 {
-color: pink;
-text-align: [left;}
-article p {margin: 25px 50px;
-display: block;
+  color: rgb(101, 64, 50);
+  text-align: left;
 }
-img {display: block;
+
+article p {
+  margin: 25px 50px;
+  display: block;
+}
+
+article img {
+  display: block;
   float: left;
   border-radius: 50%;
 }
-img {display: block;
-float: none;
-border-radius: 50%;
+
+/*img {
+  display: block;
+  float: none;
+  border-radius: 50%;
 }
-img {display: block;
-float: right;
-border-radius: 50%;}
-.clearfix::after {content:
-"";
-clear: both;
-display: table;}
-footer {background-color: tan;}
+
+img {
+  display: block;
+  float: right;
+  border-radius: 50%;
+}*/
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  background-color: tan;
+  clear: both;
+}
