@@ -51,10 +51,21 @@ body {
 }
 
 article h2 {
-  color: rgb(101, 64, 50);
-  text-align: left;
-}
+  color: rgb(221, 87, 68);
+  text-align: center;
 
+}
+.twice {-webkit-column-count: 2;
+  }
+.Once {-webkit-column-count: 1; }
+
+article img {
+  display: block;
+  float: center;
+  border-radius: 50%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
 .clearfix::after {
   content: "";
