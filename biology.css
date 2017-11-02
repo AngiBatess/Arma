@@ -55,7 +55,7 @@ article h2 {
   text-align: left;
 }
 
-
+article p:nth-child(4) {display: block;}
 
 .clearfix::after {
   content: "";
