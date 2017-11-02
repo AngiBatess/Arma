@@ -54,7 +54,12 @@ article h2 {
   color: rgb(101, 64, 50);
   text-align: left;
 }
+.armadillo {-webkit-column-count: 2;}
+ul li {text-align: center;}
 
+article img {display: block;
+  border-radius: 50%;
+}
 
 
 .clearfix::after {

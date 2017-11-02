@@ -62,8 +62,10 @@ article p {
 
 article img {
   display: block;
-  float: left;
+  float: center;
   border-radius: 50%;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 /*img {
