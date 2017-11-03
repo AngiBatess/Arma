@@ -60,6 +60,9 @@ ul li {text-align: center;}
 article img {display: block;
   border-radius: 50%;
 }
+section img:nth-child(1) {border-radius: 50%;
+width: 50%;
+padding-left: 120px;}
 
 
 .clearfix::after {
